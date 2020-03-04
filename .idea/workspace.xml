@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="331561bc-0f97-4681-93ff-e1caddeb6dea" name="Default Changelist" comment="" />
+    <list default="true" id="331561bc-0f97-4681-93ff-e1caddeb6dea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/3DSnake.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/source/game/Directions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/source/game/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/source/game/Grid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/source/game/Snake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/source/render/FieldRenderer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/source/render/Renderer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/source/render/SnakeRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3DSnake.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/source/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/source/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,9 +25,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -22,6 +41,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1YfgZ4FMDjM2ehWHsaW0mX2ugnL" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,6 +51,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
@@ -44,6 +67,7 @@
       <updated>1583339114888</updated>
       <workItem from="1583339117431" duration="491000" />
       <workItem from="1583345739716" duration="725000" />
+      <workItem from="1583355019494" duration="1559000" />
     </task>
     <servers />
   </component>
@@ -51,6 +75,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="-1039" y="78" key="#com.intellij.ide.util.MemberChooser" timestamp="1583356316412">
+      <screen x="-1600" y="0" width="1600" height="860" />
+    </state>
+    <state x="-1039" y="78" key="#com.intellij.ide.util.MemberChooser/-1600.0.1600.860/0.0.1920.1040@-1600.0.1600.860" timestamp="1583356316412" />
+    <state x="778" y="401" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583355122749">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="778" y="401" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/-1600.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1583355122749" />
     <state x="540" y="230" key="run.anything.popup" timestamp="1583339532427">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>

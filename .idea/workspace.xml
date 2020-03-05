@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="331561bc-0f97-4681-93ff-e1caddeb6dea" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/source/game/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/source/game/Snake.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,12 +55,24 @@
       <workItem from="1583339117431" duration="491000" />
       <workItem from="1583345739716" duration="725000" />
       <workItem from="1583355019494" duration="1559000" />
-      <workItem from="1583390827915" duration="2775000" />
+      <workItem from="1583390827915" duration="3416000" />
     </task>
+    <task id="LOCAL-00001" summary="Snake class">
+      <created>1583397773061</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583397773061</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Snake class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Snake class" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1039" y="78" key="#com.intellij.ide.util.MemberChooser" timestamp="1583356316412">
@@ -72,6 +83,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="778" y="401" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/-1600.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1583355122749" />
+    <state x="508" y="45" key="CommitChangelistDialog2" timestamp="1583397768811">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="508" y="45" key="CommitChangelistDialog2/-1600.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1583397768811" />
     <state x="540" y="230" key="run.anything.popup" timestamp="1583339532427">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>

@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="331561bc-0f97-4681-93ff-e1caddeb6dea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/source/game/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/source/game/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/source/game/Food.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/source/game/Grid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/source/game/Grid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/source/game/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/source/game/Snake.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +47,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -56,6 +63,9 @@
       <workItem from="1583345739716" duration="725000" />
       <workItem from="1583355019494" duration="1559000" />
       <workItem from="1583390827915" duration="3416000" />
+      <workItem from="1583556766382" duration="327000" />
+      <workItem from="1583557110961" duration="53000" />
+      <workItem from="1583557180205" duration="1955000" />
     </task>
     <task id="LOCAL-00001" summary="Snake class">
       <created>1583397773061</created>
@@ -75,18 +85,36 @@
     <option name="LAST_COMMIT_MESSAGE" value="Snake class" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1039" y="78" key="#com.intellij.ide.util.MemberChooser" timestamp="1583356316412">
-      <screen x="-1600" y="0" width="1600" height="860" />
+    <state x="651" y="356" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1583557090686">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state x="651" y="356" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1035@0.0.1920.1035" timestamp="1583557090686" />
+    <state x="673" y="94" key="#com.intellij.ide.util.MemberChooser" timestamp="1583558665355">
+      <screen x="0" y="0" width="1920" height="1035" />
     </state>
     <state x="-1039" y="78" key="#com.intellij.ide.util.MemberChooser/-1600.0.1600.860/0.0.1920.1040@-1600.0.1600.860" timestamp="1583356316412" />
-    <state x="778" y="401" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583355122749">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="673" y="94" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1035@0.0.1920.1035" timestamp="1583558665355" />
+    <state x="778" y="399" width="379" height="237" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583557159127">
+      <screen x="0" y="0" width="1920" height="1035" />
     </state>
     <state x="778" y="401" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/-1600.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1583355122749" />
+    <state x="778" y="399" width="379" height="237" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1035@0.0.1920.1035" timestamp="1583557159127" />
+    <state x="645" y="226" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1583557152711">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state x="645" y="226" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1035@0.0.1920.1035" timestamp="1583557152711" />
     <state x="508" y="45" key="CommitChangelistDialog2" timestamp="1583397768811">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="508" y="45" key="CommitChangelistDialog2/-1600.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1583397768811" />
+    <state x="670" y="196" key="FileChooserDialogImpl" timestamp="1583557088362">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state x="670" y="196" key="FileChooserDialogImpl/0.0.1920.1035@0.0.1920.1035" timestamp="1583557088362" />
+    <state x="325" y="65" width="1269" height="912" key="SettingsEditor" timestamp="1583557197039">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state x="325" y="65" width="1269" height="912" key="SettingsEditor/0.0.1920.1035@0.0.1920.1035" timestamp="1583557197039" />
     <state x="540" y="230" key="run.anything.popup" timestamp="1583339532427">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>

@@ -4,49 +4,45 @@ import java.util.ArrayList;
 
 public class Snake
 {
-	private class BodyPart
-	{
+	private class BodyPart{
 		private int x;
 		private int y;
 		private int z;
 
-		public BodyPart(int x, int y)
-		{
+		public BodyPart(int x, int y){
 			this.x = x;
 			this.y = y;
 		}
-		public void move(int xOffset, int yOffset)
-		{
+		public BodyPart(BodyPart other){
+			this.move(other);
+		}
+		public void move(int xOffset, int yOffset){
 			this.x += xOffset;
 			this.y += yOffset;
 		}
-		public void move(BodyPart other)
-		{
+		public void move(BodyPart other){
 			this.x = other.x;
 			this.y = other.y;
 		}
-		public boolean equals(BodyPart other)
-		{
+		public boolean equals(BodyPart other){
 			if(this.x == other.x && this.y == other.y)
 				return true;
 			return false;
 		}
-/*		public boolean equals(Food food)
-		{
+		public boolean equals(Food food){
 			if(this.x == food.x && this.y == food.y)
 				return true;
 			return false;
-		}*/
+		}
 	}
 
 	public static final int START_LENGTH = 4;
 	private ArrayList<BodyPart> body = new ArrayList<BodyPart>(START_LENGTH);
 	private Directions direction = Directions.left;
-	private boolean isAlive = true;
-	private boolean isAteAllFood = true;
+	boolean isAlive = true;
+	boolean isAteAllFood = true;
 
-	public Snake(int fieldSize)
-	{
+	public Snake(int fieldSize){
 		int xOffset = 0, yOffset = 0;
 		switch (direction)
 		{
@@ -71,8 +67,30 @@ public class Snake
 			body.add(new BodyPart(BPx, BPy));
 		}
 	}
-	private void move(BodyPart head, Directions direction)
-	{
+	public boolean update(int fieldSize, Food food, Directions newDirection){
+		BodyPart headCopy = new BodyPart(body.get(0));
+
+		move(headCopy, newDirection);
+
+		if(collidedAWall(fieldSize, headCopy) || collidedItself(headCopy))
+			return isAlive = false;
+
+		moveSnake(headCopy);
+		expand(headCopy, food);
+		if(body.size() == fieldSize * fieldSize)
+			return false;
+		return isAlive;
+	}
+
+	private void expand(BodyPart headCopy, Food food){
+		if(headCopy.equals(food))
+		{
+			isAteAllFood = true;
+			body.add(new BodyPart(body.get(body.size() - 1)));
+		}
+	}
+
+	private void move(BodyPart head, Directions direction){
 		int xOffset = 0, yOffset = 0;
 		if(direction == null)
 			direction = this.direction;
@@ -118,8 +136,7 @@ public class Snake
 		this.direction = direction;
 		head.move(xOffset, yOffset);
 	}
-	private boolean collidedAWall(int fieldSize, BodyPart head)
-	{
+	private boolean collidedAWall(int fieldSize, BodyPart head){
 		/*	Код для телепортации при входе в стену
 			if(head.x < 0)
 				head.move(new BodyPart((int) fieldSize - 1, head.y));
@@ -134,8 +151,7 @@ public class Snake
 			return true;
 		return false;
 	}
-	private boolean collidedItself(BodyPart head)
-	{
+	private boolean collidedItself(BodyPart head){
 		for (int i = 4; i < body.size(); i++)
 		{
 			if(head.equals(body.get(i)))
@@ -143,18 +159,15 @@ public class Snake
 		}
 		return false;
 	}
-	private void moveSnake(BodyPart newHead)
-	{
+	private void moveSnake(BodyPart newHead){
 		for (int i = body.size() - 1; i > 0; i--)
 			body.get(i).move(body.get(i - 1));
 		body.get(0).move(newHead);
 	}
-	public boolean contains(Food food)
-	{
+	public boolean contains(Food food){
 		for (BodyPart bodyPart : body)
-			if(bodyPart.equals(food)) //TODO добавить метод equals
+			if(bodyPart.equals(food))
 				return true;
 		return false;
 	}
-
 }

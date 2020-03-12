@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="331561bc-0f97-4681-93ff-e1caddeb6dea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/source/game/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/source/UserInterface/MainMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/source/UserInterface/Widgets/Button.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/source/game/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/source/game/Food.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/source/game/Grid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/source/game/Grid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/source/game/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/source/game/Snake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/source/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/source/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/source/render/FieldRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/source/render/FieldRenderer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,11 +44,37 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="last_opened_file_path" value="$PATH_TO_FX$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.source.Main" />
+      <module name="3DSnake" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\Java\javafx-sdk-11.0.2\lib&quot; --add-modules javafx.controls,javafx.fxml " />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.source.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -66,6 +93,10 @@
       <workItem from="1583556766382" duration="327000" />
       <workItem from="1583557110961" duration="53000" />
       <workItem from="1583557180205" duration="1955000" />
+      <workItem from="1583817441232" duration="2876000" />
+      <workItem from="1583824831488" duration="683000" />
+      <workItem from="1584003274422" duration="10314000" />
+      <workItem from="1584015680074" duration="1938000" />
     </task>
     <task id="LOCAL-00001" summary="Snake class">
       <created>1583397773061</created>
@@ -81,18 +112,28 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Snake class" />
     <option name="LAST_COMMIT_MESSAGE" value="Snake class" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="360" y="11" key="#Main" timestamp="1583819269873">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="360" y="11" key="#Main/0.0.1280.680@0.0.1280.680" timestamp="1583819269873" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584004891852">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1584004891852" />
     <state x="651" y="356" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1583557090686">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
     <state x="651" y="356" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1035@0.0.1920.1035" timestamp="1583557090686" />
-    <state x="673" y="94" key="#com.intellij.ide.util.MemberChooser" timestamp="1583558665355">
-      <screen x="0" y="0" width="1920" height="1035" />
+    <state x="449" y="62" key="#com.intellij.ide.util.MemberChooser" timestamp="1584017160553">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="-1039" y="78" key="#com.intellij.ide.util.MemberChooser/-1600.0.1600.860/0.0.1920.1040@-1600.0.1600.860" timestamp="1583356316412" />
+    <state x="449" y="62" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1584017160553" />
     <state x="673" y="94" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1035@0.0.1920.1035" timestamp="1583558665355" />
     <state x="778" y="399" width="379" height="237" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583557159127">
       <screen x="0" y="0" width="1920" height="1035" />
@@ -107,17 +148,43 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="508" y="45" key="CommitChangelistDialog2/-1600.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1583397768811" />
-    <state x="670" y="196" key="FileChooserDialogImpl" timestamp="1583557088362">
-      <screen x="0" y="0" width="1920" height="1035" />
+    <state x="447" y="129" key="FileChooserDialogImpl" timestamp="1583825124293">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state x="447" y="129" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1583825124293" />
     <state x="670" y="196" key="FileChooserDialogImpl/0.0.1920.1035@0.0.1920.1035" timestamp="1583557088362" />
-    <state x="325" y="65" width="1269" height="912" key="SettingsEditor" timestamp="1583557197039">
-      <screen x="0" y="0" width="1920" height="1035" />
+    <state width="1237" height="157" key="GridCell.Tab.0.bottom" timestamp="1584017618979">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1237" height="157" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584017618979" />
+    <state width="1237" height="157" key="GridCell.Tab.0.center" timestamp="1584017618978">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="157" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584017618978" />
+    <state width="1237" height="157" key="GridCell.Tab.0.left" timestamp="1584017618978">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="157" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584017618978" />
+    <state width="1237" height="157" key="GridCell.Tab.0.right" timestamp="1584017618978">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="157" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584017618978" />
+    <state x="217" y="0" width="914" height="680" key="SettingsEditor" timestamp="1584007895712">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="217" y="0" width="914" height="680" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1584007895712" />
     <state x="325" y="65" width="1269" height="912" key="SettingsEditor/0.0.1920.1035@0.0.1920.1035" timestamp="1583557197039" />
+    <state x="91" y="0" key="new project wizard" timestamp="1583821618981">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="91" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1583821618981" />
     <state x="540" y="230" key="run.anything.popup" timestamp="1583339532427">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
     <state x="540" y="230" key="run.anything.popup/0.0.1920.1035@0.0.1920.1035" timestamp="1583339532427" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1584013210119">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1584013210119" />
   </component>
 </project>

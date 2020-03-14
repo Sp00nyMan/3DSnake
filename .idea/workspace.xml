@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="331561bc-0f97-4681-93ff-e1caddeb6dea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/3DSnake.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/3DSnake.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/source/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/source/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/source/UserInterface/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/source/UserInterface/MainMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/source/UserInterface/Widgets/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/source/UserInterface/Widgets/Button.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,13 +51,13 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.source.Main" />
       <module name="3DSnake" />
-      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\Java\javafx-sdk-11.0.2\lib&quot; --add-modules javafx.controls,javafx.fxml " />
+      <option name="VM_PARAMETERS" value="--module-path &quot;$PATH_TO_FX$/&quot; --add-modules javafx.controls,javafx.fxml " />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.source.*" />
@@ -94,6 +96,7 @@
       <workItem from="1584003274422" duration="10314000" />
       <workItem from="1584015680074" duration="1938000" />
       <workItem from="1584101849614" duration="3532000" />
+      <workItem from="1584188372733" duration="1286000" />
     </task>
     <task id="LOCAL-00001" summary="Snake class">
       <created>1583397773061</created>
@@ -114,14 +117,19 @@
     <option name="LAST_COMMIT_MESSAGE" value="Snake class" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="460" y="94" key="#Configure_Path_Variables" timestamp="1584188942348">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state x="460" y="94" key="#Configure_Path_Variables/0.0.1920.1035@0.0.1920.1035" timestamp="1584188942348" />
     <state x="360" y="11" key="#Main" timestamp="1583819269873">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="360" y="11" key="#Main/0.0.1280.680@0.0.1280.680" timestamp="1583819269873" />
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584004891852">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="144" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584189490378">
+      <screen x="0" y="0" width="1920" height="1035" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1584004891852" />
+    <state x="144" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1035@0.0.1920.1035" timestamp="1584189490378" />
     <state x="651" y="356" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1583557090686">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
@@ -145,32 +153,36 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="508" y="45" key="CommitChangelistDialog2/-1600.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1583397768811" />
-    <state x="447" y="129" key="FileChooserDialogImpl" timestamp="1583825124293">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="670" y="196" key="FileChooserDialogImpl" timestamp="1584189195112">
+      <screen x="0" y="0" width="1920" height="1035" />
     </state>
     <state x="447" y="129" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1583825124293" />
-    <state x="670" y="196" key="FileChooserDialogImpl/0.0.1920.1035@0.0.1920.1035" timestamp="1583557088362" />
-    <state width="1237" height="157" key="GridCell.Tab.0.bottom" timestamp="1584168018620">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="670" y="196" key="FileChooserDialogImpl/0.0.1920.1035@0.0.1920.1035" timestamp="1584189195112" />
+    <state width="1860" height="255" key="GridCell.Tab.0.bottom" timestamp="1584189510562">
+      <screen x="0" y="0" width="1920" height="1035" />
     </state>
     <state width="1237" height="157" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584168018620" />
-    <state width="1237" height="157" key="GridCell.Tab.0.center" timestamp="1584168018620">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1860" height="255" key="GridCell.Tab.0.bottom/0.0.1920.1035@0.0.1920.1035" timestamp="1584189510562" />
+    <state width="1860" height="255" key="GridCell.Tab.0.center" timestamp="1584189510559">
+      <screen x="0" y="0" width="1920" height="1035" />
     </state>
     <state width="1237" height="157" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584168018620" />
-    <state width="1237" height="157" key="GridCell.Tab.0.left" timestamp="1584168018619">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1860" height="255" key="GridCell.Tab.0.center/0.0.1920.1035@0.0.1920.1035" timestamp="1584189510559" />
+    <state width="1860" height="255" key="GridCell.Tab.0.left" timestamp="1584189510558">
+      <screen x="0" y="0" width="1920" height="1035" />
     </state>
     <state width="1237" height="157" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584168018619" />
-    <state width="1237" height="157" key="GridCell.Tab.0.right" timestamp="1584168018620">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1860" height="255" key="GridCell.Tab.0.left/0.0.1920.1035@0.0.1920.1035" timestamp="1584189510558" />
+    <state width="1860" height="255" key="GridCell.Tab.0.right" timestamp="1584189510561">
+      <screen x="0" y="0" width="1920" height="1035" />
     </state>
     <state width="1237" height="157" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584168018620" />
-    <state x="217" y="0" width="914" height="680" key="SettingsEditor" timestamp="1584007895712">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1860" height="255" key="GridCell.Tab.0.right/0.0.1920.1035@0.0.1920.1035" timestamp="1584189510561" />
+    <state x="325" y="65" width="914" height="680" key="SettingsEditor" timestamp="1584189419975">
+      <screen x="0" y="0" width="1920" height="1035" />
     </state>
     <state x="217" y="0" width="914" height="680" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1584007895712" />
-    <state x="325" y="65" width="1269" height="912" key="SettingsEditor/0.0.1920.1035@0.0.1920.1035" timestamp="1583557197039" />
+    <state x="325" y="65" width="1269" height="912" key="SettingsEditor/0.0.1920.1035@0.0.1920.1035" timestamp="1584189419975" />
     <state x="91" y="0" key="new project wizard" timestamp="1583821618981">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

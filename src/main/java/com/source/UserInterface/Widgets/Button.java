@@ -1,27 +1,29 @@
 package com.source.UserInterface.Widgets;
 
-import javafx.scene.control.TextArea;
+import javafx.scene.Group;
+import javafx.scene.paint.Color;
 import javafx.scene.shape.Box;
+import javafx.scene.text.Text;
 
-public class Button
+public abstract class Button
 {
-	private double x;
-	private double y;
 	public static final int ButtonWidth = 300;
 	public static final int ButtonHeight = 80;
 	public static final int ButtonDepth = 10;
-	Box shape;
-	TextArea text;
-	public Button(double x, double y, String label)
+
+	public static Group generateButton(Group buttonGroup, String label)
 	{
-		text = new TextArea(label);
-		shape = new Box(ButtonWidth, ButtonHeight, ButtonDepth);
-		shape.translateXProperty().set(x);
-		shape.translateYProperty().set(y);
-		shape.setAccessibleText(label);
-		text.translateXProperty().set(x);
-		text.translateYProperty().set(y);
-		this.x = x;
-		this.y = y;
+		Box shape = new Box(ButtonWidth, ButtonHeight, ButtonDepth);
+		shape.translateXProperty().set(ButtonWidth / 2 + 1.3);
+		shape.translateYProperty().set(13.3);
+
+		Text text = new Text(label);
+		text.translateXProperty().set(shape.getWidth() / 2 - text.getWrappingWidth() / 2);
+		text.translateYProperty().set(shape.getHeight() / 2 - text.getLayoutBounds().getHeight() / 2);
+		text.setFill(Color.BLACK);
+
+		buttonGroup.getChildren().addAll(shape, text);
+		return buttonGroup;
 	}
+
 }

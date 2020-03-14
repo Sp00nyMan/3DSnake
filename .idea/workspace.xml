@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="331561bc-0f97-4681-93ff-e1caddeb6dea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/source/UserInterface/MainMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/source/UserInterface/Widgets/Button.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/source/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/source/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/source/render/FieldRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/source/render/FieldRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/source/UserInterface/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/source/UserInterface/MainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/source/UserInterface/Widgets/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/source/UserInterface/Widgets/Button.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +93,7 @@
       <workItem from="1583824831488" duration="683000" />
       <workItem from="1584003274422" duration="10314000" />
       <workItem from="1584015680074" duration="1938000" />
+      <workItem from="1584101849614" duration="3532000" />
     </task>
     <task id="LOCAL-00001" summary="Snake class">
       <created>1583397773061</created>
@@ -129,11 +126,11 @@
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
     <state x="651" y="356" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1035@0.0.1920.1035" timestamp="1583557090686" />
-    <state x="449" y="62" key="#com.intellij.ide.util.MemberChooser" timestamp="1584017160553">
+    <state x="449" y="62" key="#com.intellij.ide.util.MemberChooser" timestamp="1584104133283">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="-1039" y="78" key="#com.intellij.ide.util.MemberChooser/-1600.0.1600.860/0.0.1920.1040@-1600.0.1600.860" timestamp="1583356316412" />
-    <state x="449" y="62" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1584017160553" />
+    <state x="449" y="62" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1584104133283" />
     <state x="673" y="94" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1035@0.0.1920.1035" timestamp="1583558665355" />
     <state x="778" y="399" width="379" height="237" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583557159127">
       <screen x="0" y="0" width="1920" height="1035" />
@@ -153,22 +150,22 @@
     </state>
     <state x="447" y="129" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1583825124293" />
     <state x="670" y="196" key="FileChooserDialogImpl/0.0.1920.1035@0.0.1920.1035" timestamp="1583557088362" />
-    <state width="1237" height="157" key="GridCell.Tab.0.bottom" timestamp="1584017618979">
+    <state width="1237" height="157" key="GridCell.Tab.0.bottom" timestamp="1584168018620">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="157" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584017618979" />
-    <state width="1237" height="157" key="GridCell.Tab.0.center" timestamp="1584017618978">
+    <state width="1237" height="157" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584168018620" />
+    <state width="1237" height="157" key="GridCell.Tab.0.center" timestamp="1584168018620">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="157" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584017618978" />
-    <state width="1237" height="157" key="GridCell.Tab.0.left" timestamp="1584017618978">
+    <state width="1237" height="157" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584168018620" />
+    <state width="1237" height="157" key="GridCell.Tab.0.left" timestamp="1584168018619">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="157" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584017618978" />
-    <state width="1237" height="157" key="GridCell.Tab.0.right" timestamp="1584017618978">
+    <state width="1237" height="157" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584168018619" />
+    <state width="1237" height="157" key="GridCell.Tab.0.right" timestamp="1584168018620">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="157" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584017618978" />
+    <state width="1237" height="157" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584168018620" />
     <state x="217" y="0" width="914" height="680" key="SettingsEditor" timestamp="1584007895712">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

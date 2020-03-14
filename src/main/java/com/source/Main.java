@@ -10,6 +10,7 @@ import javafx.scene.Group;
 import javafx.scene.PerspectiveCamera;
 import javafx.scene.Scene;
 import javafx.scene.input.KeyEvent;
+import javafx.scene.layout.VBox;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
@@ -22,14 +23,14 @@ public class Main extends Application
 
 	public void start(Stage stage)
 	{
-		final Group MainMenuGroup = new Group();
+		final VBox MainMenuGroup = new VBox();
 		MainGroup.getChildren().add(MainMenu.addButtons(MainMenuGroup));
+		MainMenuGroup.setSpacing(MainMenu.DistanceBetweenButtons);
 
 		Scene scene = new Scene(MainGroup, WIDTH, HEIGHT);
 		scene.setFill(Color.SILVER);
 		Camera camera = new PerspectiveCamera();
 		scene.setCamera(camera);
-		//MainGroup.translateZProperty().set(50);
 
 		stage.addEventHandler(KeyEvent.KEY_PRESSED, new EventHandler<KeyEvent>() {
 			public void handle(KeyEvent event)

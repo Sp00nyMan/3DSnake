@@ -4,7 +4,6 @@ package com.source;
 import com.source.UserInterface.MainMenu;
 import com.source.render.FieldRenderer;
 import javafx.application.Application;
-import javafx.event.EventHandler;
 import javafx.scene.Camera;
 import javafx.scene.Group;
 import javafx.scene.PerspectiveCamera;
@@ -23,36 +22,37 @@ public class Main extends Application
 
 	public void start(Stage stage)
 	{
+/*		final Group FieldGroup = new Group();
+		MainGroup.getChildren().add(FieldRenderer.addField(FieldGroup));*/
+
 		final VBox MainMenuGroup = new VBox();
 		MainGroup.getChildren().add(MainMenu.addButtons(MainMenuGroup));
 		MainMenuGroup.setSpacing(MainMenu.DistanceBetweenButtons);
+
+
+		stage.addEventHandler(KeyEvent.KEY_PRESSED, event -> {
+			switch(event.getCode())
+			{
+				case A:
+					MainGroup.translateXProperty().set(MainGroup.getTranslateX() - 1);
+					break;
+				case D:
+					MainGroup.translateXProperty().set(MainGroup.getTranslateX() + 1);
+					break;
+				case S:
+					MainGroup.translateYProperty().set(MainGroup.getTranslateY() + 1);
+					break;
+				case W:
+					MainGroup.translateYProperty().set(MainGroup.getTranslateY() - 1);
+					break;
+			}
+			System.out.println(MainGroup.getTranslateX() + ", " + MainGroup.getTranslateY());
+		});
 
 		Scene scene = new Scene(MainGroup, WIDTH, HEIGHT);
 		scene.setFill(Color.SILVER);
 		Camera camera = new PerspectiveCamera();
 		scene.setCamera(camera);
-
-		stage.addEventHandler(KeyEvent.KEY_PRESSED, new EventHandler<KeyEvent>() {
-			public void handle(KeyEvent event)
-			{
-				switch(event.getCode())
-				{
-					case A:
-						MainGroup.translateXProperty().set(MainGroup.getTranslateX() - 1);
-						break;
-					case D:
-						MainGroup.translateXProperty().set(MainGroup.getTranslateX() + 1);
-						break;
-					case S:
-						MainGroup.translateYProperty().set(MainGroup.getTranslateY() + 1);
-						break;
-					case W:
-						MainGroup.translateYProperty().set(MainGroup.getTranslateY() - 1);
-						break;
-				}
-				System.out.println(MainGroup.getTranslateX() + ", " + MainGroup.getTranslateY());
-			}
-		});
 
 		stage.setTitle("TEST");
 		stage.setScene(scene);

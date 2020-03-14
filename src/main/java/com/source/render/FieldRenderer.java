@@ -4,15 +4,15 @@ package com.source.render;
 import javafx.scene.Group;
 import javafx.scene.shape.Box;
 
-public class FieldRenderer extends Renderer
+public class FieldRenderer
 {
-	public static final int fieldSize = 15;
+	public static final int fieldSize = 20;
 	public static final int CellWidth = 30;
 	public static final int CellHeight = 30;
 	public static final int CellLength = 15;
 	public static final int DistanceBetweenCells = 4;
 
-	public static void addField(Group group)
+	public static Group addField(Group group)
 	{
 		for (int i = 0; i < fieldSize; i++)
 		{
@@ -24,5 +24,8 @@ public class FieldRenderer extends Renderer
 				group.getChildren().add(cell);
 			}
 		}
+		group.translateXProperty().set(CellWidth / 2 + DistanceBetweenCells);
+		group.translateYProperty().set(CellHeight / 2 + DistanceBetweenCells);
+		return group;
 	}
 }

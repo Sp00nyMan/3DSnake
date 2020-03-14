@@ -1,29 +1,46 @@
 package com.source.UserInterface.Widgets;
 
+import javafx.event.EventHandler;
 import javafx.scene.Group;
+import javafx.scene.control.Label;
+import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.StackPane;
 import javafx.scene.paint.Color;
+import javafx.scene.paint.PhongMaterial;
 import javafx.scene.shape.Box;
-import javafx.scene.text.Text;
 
 public abstract class Button
 {
 	public static final int ButtonWidth = 300;
 	public static final int ButtonHeight = 80;
-	public static final int ButtonDepth = 10;
+	public static final int ButtonDepth = 60;
+	public static final Color DefaultColorText = Color.BLACK;
+	public static final Color OnHoverText = Color.RED;
+	public static final Color DefaultColorShape = Color.WHITE;
+	public static final Color OnHoverShape = Color.BLUE;
 
-	public static Group generateButton(Group buttonGroup, String label)
+	public static StackPane generateButton(StackPane buttonPane, String label)
 	{
 		Box shape = new Box(ButtonWidth, ButtonHeight, ButtonDepth);
-		shape.translateXProperty().set(ButtonWidth / 2 + 1.3);
-		shape.translateYProperty().set(13.3);
+		shape.translateXProperty().set(1.3);
 
-		Text text = new Text(label);
-		text.translateXProperty().set(shape.getWidth() / 2 - text.getWrappingWidth() / 2);
-		text.translateYProperty().set(shape.getHeight() / 2 - text.getLayoutBounds().getHeight() / 2);
-		text.setFill(Color.BLACK);
+		Label text = new Label(label);
+		text.setTextFill(Color.BLACK);
 
-		buttonGroup.getChildren().addAll(shape, text);
-		return buttonGroup;
+		buttonPane.getChildren().addAll(shape, text);
+		buttonPane.setOnMouseEntered(mouseEvent -> {
+			System.out.println("ENTERED");
+			buttonPane.setScaleZ(0.5);
+			shape.setMaterial(new PhongMaterial(OnHoverShape));
+			text.setTextFill(OnHoverText);
+		});
+		buttonPane.setOnMouseExited(mouseEvent -> {
+			System.out.println("EXITED\n\r");
+			buttonPane.setScaleZ(1);
+			shape.setMaterial(new PhongMaterial(DefaultColorShape));
+			text.setTextFill(DefaultColorText);
+		});
+		return buttonPane;
 	}
 
 }

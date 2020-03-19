@@ -4,8 +4,8 @@ import java.util.Random;
 
 public class Food
 {
-	float x;
-	float y;
+	public float x;
+	public float y;
 
 	public Food(int fieldSize, Snake snake)
 	{

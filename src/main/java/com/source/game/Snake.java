@@ -4,10 +4,9 @@ import java.util.ArrayList;
 
 public class Snake
 {
-	private class BodyPart{
-		private int x;
-		private int y;
-		private int z;
+	public class BodyPart{
+		public int x;
+		public int y;
 
 		public BodyPart(int x, int y){
 			this.x = x;
@@ -67,7 +66,7 @@ public class Snake
 			body.add(new BodyPart(BPx, BPy));
 		}
 	}
-	public boolean update(int fieldSize, Food food, Directions newDirection){
+	public synchronized boolean update(int fieldSize, Food food, final Directions newDirection){
 		BodyPart headCopy = new BodyPart(body.get(0));
 
 		move(headCopy, newDirection);
@@ -89,7 +88,6 @@ public class Snake
 			body.add(new BodyPart(body.get(body.size() - 1)));
 		}
 	}
-
 	private void move(BodyPart head, Directions direction){
 		int xOffset = 0, yOffset = 0;
 		if(direction == null)
@@ -164,10 +162,15 @@ public class Snake
 			body.get(i).move(body.get(i - 1));
 		body.get(0).move(newHead);
 	}
+
 	public boolean contains(Food food){
 		for (BodyPart bodyPart : body)
 			if(bodyPart.equals(food))
 				return true;
 		return false;
+	}
+	public synchronized ArrayList<BodyPart> getBody()
+	{
+		return body;
 	}
 }

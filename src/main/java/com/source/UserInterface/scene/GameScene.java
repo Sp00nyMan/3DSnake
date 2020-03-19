@@ -94,10 +94,15 @@ public class GameScene implements EventHandler<KeyEvent>
 			case ESCAPE:
 				if(!paused)
 				{
-					Rectangle rect = new Rectangle(0,0,Main.WIDTH, Main.HEIGHT);
-					rect.setFill(Color.GRAY);
-					rect.setOpacity(0.5);
-					gameGroup.getChildren().add(rect);
+					if(game.getSnake().isAlive)
+					{
+						Rectangle rect = new Rectangle(0, 0, Main.WIDTH, Main.HEIGHT);
+						rect.setFill(Color.GRAY);
+						rect.setOpacity(0.5);
+						gameGroup.getChildren().add(rect);
+					}
+					else
+						System.out.println("GO TO MAIN MENU SOMEHOW");
 				}
 				else
 					gameGroup.getChildren().remove(gameGroup.getChildren().size() - 1);

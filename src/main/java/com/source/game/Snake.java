@@ -38,7 +38,7 @@ public class Snake
 	public static final int START_LENGTH = 4;
 	private ArrayList<BodyPart> body = new ArrayList<BodyPart>(START_LENGTH);
 	private Directions direction = Directions.left;
-	boolean isAlive = true;
+	public boolean isAlive = true;
 	boolean isAteAllFood = true;
 
 	public Snake(int fieldSize){
